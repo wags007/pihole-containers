@@ -13,6 +13,6 @@ services:
       #SECONDARY_HOSTS_3_PASSWORD: 'your_password4'
       #SECONDARY_HOSTS_3_PATH: '/apps/pi-hole'
       INTERVAL_MINUTES: 5
-      SYNC_V5_STATIC_DHCP_LEASES: true
+      SYNC_V5_STATIC_DHCP_LEASES: 'true'
       TZ: 'America/New_York'
     restart: unless-stopped
