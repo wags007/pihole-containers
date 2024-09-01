@@ -1,7 +1,7 @@
 version: '3'
 services:
   orbital-sync:
-    image: mattwebbio/orbital-sync:latest
+    image: ghcr.io/mattwebbio/orbital-sync:latest
     hostname: "pi501.wagsworld.com"
     extra_hosts:
       - "pihole01.wagsworld.com:192.168.200.9"
